@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <video src="./assets/video.mp4" autoplay id="video"></video>
+    <div>
+      <h1>Star Wars API App</h1>
+      <label for="entity">Выберите:</label>
+      <select id="entity">
+        <option value="films">Films</option>
+        <option value="people">People</option>
+        <option value="planets">Planets</option>
+        <option value="species">Species</option>
+        <option value="starships">Starships</option>
+        <option value="vehicles">Vehicles</option>
+      </select>
+      <label for="id">ID:</label>
+      <input
+        id="id"
+        type="number"
+        min="1"
+        max="10"
+        required
+        placeholder="Введите от 1 до 10"
+      />
+      <button id="fetchBtn">Поиск</button>
+      <div id="result"></div>
+    </div>
+    <script src="swapi.js"></script>
+  </body>
+</html>

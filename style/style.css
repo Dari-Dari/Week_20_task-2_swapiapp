@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 3% 10% 5% 5%;
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: aliceblue;
+  background-image: url(../assets/6c98ad6a298777cdc756b5ff0ecf52f0.jpeg);
+}
+
+h1 {
+  margin-bottom: 2%;
+}
+
+#id,
+#entity,
+#fetchBtn {
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border-radius: 3px;
+}
+
+#entity {
+  margin-right: 1%;
+  padding: 5px;
+}
+#entity:focus {
+  outline: none;
+}
+
+#id {
+  width: 13rem;
+  padding: 5px;
+}
+#id:focus {
+  outline: none;
+}
+
+#fetchBtn {
+  margin-left: 1%;
+  padding: 5px 15px;
+  transition: 0.5s all;
+  border: none;
+}
+#fetchBtn:hover {
+  background-color: rgb(255, 38, 0);
+  cursor: pointer;
+  box-shadow: 0 0 10px 5px rgb(171, 203, 255);
+  border: none;
+  color: aliceblue;
+}
+
+#result {
+  margin-top: 2%;
+  font-size: 1.5rem;
+}
+
+#video {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: auto;
+  height: 100%;
+  opacity: 0.7;
+}/*# sourceMappingURL=style.css.map */
